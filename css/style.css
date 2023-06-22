@@ -940,10 +940,23 @@ textarea {
   margin-bottom: 1.5rem;
   margin-right: 1.5rem;
   font-size: 1.6rem;
-  background: #4e4e4e;
+  background: inherit;
+  border: rgba(0, 0, 0) solid;
   border-radius: 5px;
   font-weight: 600;
-  color: rgba(255, 255, 255, 0.857);
+  color: rgba(0, 0, 0);
+}
+
+.skills__skillss {
+  padding: 0.5rem 0.5rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  font-size: 1.3rem;
+  background: inherit;
+  border: rgba(0, 0, 0) solid;
+  border-radius: 5px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
 }
 
 .mouse {
