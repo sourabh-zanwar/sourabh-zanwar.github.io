@@ -977,3 +977,97 @@ textarea {
     top: 27px;
   }
 }
+
+.custom-div-2-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5rem;
+  margin-top: 2%;
+}
+
+.custom-div-mar {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.custom-div {
+  margin: 0;
+  padding: 0.75em;
+}
+
+.custom-div:nth-child(even) {
+  border-left: 1px dashed;
+  padding-left: 1em;
+}
+
+.custom-div:nth-child(odd) {
+  border-left: 1px dashed;
+  padding-left: 1em;
+}
+
+.experience-item {
+  margin-bottom: 1em;
+}
+
+.company-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.job-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 0.25em;
+}
+
+.date {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 0.75em;
+}
+
+.responsibilities-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.responsibilities-list li {
+  font-size: 14px;
+  margin-bottom: 0.25em;
+}
+
+/* Optional: Add more CSS styles to customize the look and feel */
+
+.collapsible {
+  border: none;
+  background-color: inherit;
+  cursor: s-resize;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  text-decoration: underline;
+}
+
+.collapsible:hover {
+  border: none;
+  background: #eee;
+}
+
+.active {
+  border: none;
+  background: #eee;
+  cursor: n-resize;
+}
+
+.content-collapsible {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+ul.circle-list {
+  list-style-type: circle;
+}
