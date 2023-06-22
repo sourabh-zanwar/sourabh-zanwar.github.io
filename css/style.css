@@ -327,7 +327,7 @@ textarea {
 }
 
 .about {
-  background: #fafafa;
+  background: #f7f7f7;
 }
 .about__content {
   display: grid;
@@ -1026,7 +1026,7 @@ textarea {
 
 .date {
   font-size: 14px;
-  color: #888;
+  color: #6f6f6f;
   margin-bottom: 0.75em;
 }
 
@@ -1042,6 +1042,13 @@ textarea {
 }
 
 /* Optional: Add more CSS styles to customize the look and feel */
+
+.linkbutton {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  text-decoration: underline;
+}
 
 .collapsible {
   border: none;
